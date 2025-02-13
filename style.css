@@ -1,0 +1,629 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    
+}
+
+.main-block{
+   background: rgba(8, 8, 8, 0.8);
+    height: 100vh;
+    
+}
+
+.first-block{
+   
+   height: 100vh;
+   padding-top: 140px;
+   /*border: 2px solid rgb(255, 0, 98) ;*/
+}
+.first-block .container{
+   
+  /*  border: 2px solid blue;*/
+}
+.text2 img{
+    width: 600px;
+    height: 400px;
+    padding-top: 40px;
+}
+.more-text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:last center;
+}
+
+.container .text{
+ 
+    color: aliceblue;
+    text-align: center;
+    
+   
+}
+/*.container button{
+ 
+  
+  position: relative;
+  z-index: 2;
+
+    left: 40%;
+    width: 300px;
+    height: 60px;
+   
+    
+   
+}*/
+.container .buttn, .fd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+  border-radius: 30px;
+      left: 40%;
+      width: 300px;
+      height: 60px;
+}
+
+
+.text h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.text h2{
+    font-size: 40px;
+}
+.more-text{
+    z-index: 1;
+}
+.more-text .text1{
+    display: block;
+    width: 200px;
+    color: aliceblue;
+}
+.text2 img{
+    width: 300px;
+    
+    padding-bottom: 60px;
+}
+
+
+.second-block{
+    background: rgba(8, 8, 8, 0.8);
+    height: 100vh;
+    padding-top: 80px;
+   /* border: 2px solid lime ;*/
+    color: aliceblue;
+
+}
+
+.myserve .serve1,.p-serve{
+    margin-left: 170px;
+    margin-bottom: 10px;
+}
+
+.second-block .myserve{
+    display: flex;
+    align-items: center;
+}
+.myserve h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+
+.second-block .container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 20px;
+   /* border: 2px solid blue;*/
+}
+.container .blok{
+    width: 450px;
+    height: 500px;
+    background-color:rgba(116, 113, 113, 0.5);
+    border-radius: 30px;
+    border: 3px solid aliceblue ;
+}
+.blok .img1{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(116, 113, 113, 0.5);
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 30px;
+}
+.blok .dot{
+    width: 70px;
+    height: 40px;
+    background-color: rgb(203, 224, 19);
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 10px;
+    
+}
+.role-text{
+    border-bottom: 2px solid rgb(238, 237, 234);
+   
+}
+.role-text{
+    text-align: center;
+    font-size: 40px;
+    
+    
+}
+
+.third-block{
+     background: rgba(78, 65, 65, 0.8);
+    height: 100vh;
+
+}
+
+.fourth-block{
+    background: rgba(8, 8, 8, 0.8);
+    height: 100vh;
+    padding-top: 80px;
+    /*border: 2px solid lime ;*/
+
+}
+
+.fourth-block .container{
+   
+   /* border: 2px solid blue;*/
+    
+}
+ .work-exp h1{
+    font-size: 60px;
+    margin-left: 35%;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.work-exp .roles{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.work-exp .roles{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(255, 255, 255,0.3);
+   padding: 20px;
+    border-radius: 30px;
+    border: 2px solid aliceblue;
+    color: aliceblue;
+   /* filter: blur(25px);*/
+}
+.jobs p{
+    padding-bottom: 55px;
+}
+
+.jobs h4{
+   
+    font-weight: bold;
+}
+
+
+.jobs .circle{
+    width: 100px;
+    height: 100%;
+    position: relative;
+    /*background-color: rgb(201, 232, 153);*/
+
+}
+.jobs h4{
+    margin-bottom: 0px;
+    font-size: 30px;
+}
+
+
+.fifth-block{
+   background: rgba(8, 8, 8, 0.8);
+    height: 100vh;
+    padding-top: 80px;
+    /*border: 2px solid lime ;*/
+
+}
+
+.container .hire{
+    width: 50%;
+    height: 580px;
+    /*background-color: azure;*/
+}
+.container .hires{
+    width: 50%;
+    height: 580px;
+    /*background-color: azure;*/
+}
+
+
+.fifth-block .container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    /*border: 2px solid blue;*/
+    color: aliceblue;
+}
+
+.container .why{
+    font-size: 50px;
+    font-weight: bold;
+}
+.hire .para{
+    display: block;
+    width: 300px;
+    font-size: 16px;
+}
+.hire .why, .para,.para-font,.jobing{
+    padding-bottom: 20px;
+}
+h4 strong{
+    font-size: 30px;
+}
+h4 .para-font{
+    font-size: 14px;
+    font-weight: 300;
+}
+.hires{
+   margin-bottom: 50px;
+}
+
+
+.fnth-block{
+    background: rgba(8, 8, 8, 0.8);
+   height: 110vh;
+ 
+  /* border: 2px solid lime ;*/
+}
+
+.hire button{
+    width: 150px;
+    height: 80px;
+    font-size: 30px;
+}
+
+
+
+.fnth-block .container{
+ padding-bottom: 20px;
+ margin-top: 0px;
+   /* border: 2px solid blue;*/
+}
+.porty button{
+    height: 50px;
+    width: 80px;
+}
+
+.porty .minus{
+   font-size: 40px;
+   color: aliceblue;
+   font-weight: bolder;
+}
+.container .porty{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 10px;
+   /* background-color: aliceblue;*/
+}
+
+.container .screens{
+    width: 100%;
+    height: 400px;
+    /*background-color: aliceblue;*/
+}
+.show1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.show1 .firstOne{
+  
+    width: 380px;
+    height: 240px;
+    background-color: black;
+}
+.screens .blocks{
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: blueviolet;
+}
+.blocks{
+    font-size: 14px;
+    padding: 5px;
+    color: aliceblue;
+   
+}
+.blocks p{
+  margin-left: 10px;
+   
+}
+.landings{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.proj-description{
+    display: block;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    color: aliceblue;
+ 
+}
+
+
+
+
+
+
+.nth-block{
+    background: rgba(8, 8, 8, 0.8);
+   height: 100vh;
+   padding-top: 30px;
+   /*border: 2px solid lime ;*/
+   margin-top: 313px;
+}
+.nth-block .container{
+   
+    /*border: 2px solid blue;*/
+   
+}
+.container .bloggy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   /* background-color: brown;*/
+    gap: 20px;
+    padding: 10px;
+}
+
+.bloged{
+    width: 400px;
+    height: 500px;
+    /*background-color: aquamarine;*/
+    border-radius: 20px;
+    color: aliceblue;
+}
+.bloged img{
+    width: 100%;
+    height: 300px;
+    background-color: aliceblue;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.text-blog h4{
+    font-weight: bold;
+    
+
+}
+.bloged .new-btn{
+    width: 50px;
+    height: 50px;
+   /* background-color: blue;*/
+    position: absolute;
+    margin-top: 470px;
+    margin-left: 330px;
+    border-radius: 100%;
+}
+
+ 
+
+.visitor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+}
+.visitor h1{
+    font-weight: bolder;
+}
+.visitor button{
+    width: 180px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 24px;
+    
+}
+
+
+
+/*-----------------*/
+.footer{
+    background: rgba(8, 8, 8, 0.8);
+   height: 110vh;
+   padding-top: 30px;
+   /*border: 2px solid lime ;*/
+}
+.footer .container{
+   
+   /* border: 2px solid blue;*/
+}
+.container .feet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    width: 100%;
+    height: 60px;
+    /*background-color: aliceblue;*/
+    margin-bottom: 10px;
+}
+
+.container .feet1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+   /* background-color: aliceblue;*/
+    margin-bottom: 10px;
+    color: aliceblue;
+
+}
+.feet1 h1{
+    color: rgb(169, 182, 156);
+    font-weight: bolder;
+}
+
+.container .feet2{
+    display: flex;
+    justify-content:center;
+    
+    width: 100%;
+    height: 300px;
+    gap: 100px;
+    /*background-color: aliceblue;*/
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+.funx{
+    font-size: 20px;
+}
+.funx1{
+    font-size: 18px;
+}
+.funx h3{
+    color: chartreuse;
+}
+
+
+.funny-texts .p1{
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 60%;
+
+}
+.favs{
+    display: flex;
+    
+    align-items: center;
+    gap: 30px;
+}
+.butty{
+    width: 200px;
+    height: 50px;
+    font-size: 40px;
+}
+
+/*---------------------*/
+
+
+
+
+.nav{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-left: auto;
+   padding-top:20px ;
+   padding-right: 0;
+   background-color: rgb(243, 242, 245);
+   color: aliceblue;
+   position: fixed;
+   z-index: 4;
+
+}
+
+
+
+.nav .names{
+    padding-right: 550px;
+    left: 0;
+    color: black;
+}
+
+
+
+
+
+/*--------------ANIM------------*/
+
+
+
+
+/*-------------------------------------------*/
+
+
+
+
+/*--------------*/
+
+
+
+
+
+
+.contact span{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(113, 202, 240);
+    border-radius: 50%;
+    margin-top: 93px;
+}
+.nav span{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(113, 202, 240);
+    border-radius: 50%;
+    margin-right: 550px;
+    left: 0;
+   
+}
+/*for prac */
+
+/*.container .prc{
+    left: 50%;
+    top: 50%;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    border: 2px solid aliceblue;
+    position: absolute;
+    z-index: 2;
+}
+.prc .newprc{
+
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+
+
+}
+
+.newprc{
+    animation-name: prac;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    transition: 2s;
+    transform: rotate(360deg);
+}
+@keyframes prac {
+
+   
+        0%{
+            transform: translateY(0);
+        }
+        50%{
+            transform: translateY(50px);
+        }
+        100%{
+            transform: translateY(200px);
+        }
+       
+       
+        
+    }
+
+    
+
