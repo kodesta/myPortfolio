@@ -187,6 +187,11 @@
 
     
 }
+.circle img{
+    width: 200px;
+    margin-top: 130px; 
+
+}
 
 .work-exp .roles{
     width: 100%;
@@ -249,7 +254,7 @@
     color: aliceblue;
 }
 
-.container .why{
+.hire .why{
     font-size: 50px;
     font-weight: bold;
 }
@@ -584,7 +589,363 @@ h4 .para-font{
 
 /*responsive*/
 
+@media only screen and (max-width: 1920px) {
+  body {
+    background-color: lightblue;
+  }
+  /*nth-block*/
 
+
+/*-----------------*/
+}
+@media only screen and (max-width: 720px) {
+
+
+    /*first-block*/
+    .fifth-block{
+      
+    }
+    .first-block .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+       
+    }
+    .container .text, .more-text, .buttn{
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+  
+    .text h1{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .text h2{
+        font-size: 20px;
+    }
+
+    .more-text .text1{
+        text-align: center;
+    }
+
+    .text2 img{
+        
+        
+        padding-bottom: 0px;
+    }
+
+    .container .buttn, .fd{
+      
+        z-index: 2;
+      border-radius: 30px;
+        left: auto;
+          width: 150px;
+          height: 30px;
+    }
+
+    /*-----*/
+
+     /*second-block*/
+    .second-block{
+        padding-top: 680px;
+    }
+     .second-block, .myserve, .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .myserve h1{
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .container .blok{
+        width: 225px;
+        height: 250px;
+        background-color:rgba(116, 113, 113, 0.5);
+        border-radius: 10px;
+        border: 2px solid aliceblue ;
+    }
+
+    .blok .img1{
+        width: 150px;
+        height: 150px;
+        background-color: rgba(116, 113, 113, 0.5);
+        margin: auto;
+        margin-top: 40px;
+        border-radius: 10px;
+    }
+
+    .blok .dot{
+        width: 35px;
+        height: 20px;
+        background-color: rgb(203, 224, 19);
+        margin: auto;
+        margin-top: 2.5px;
+        border-radius: 5px;
+        
+    }
+    .role-text{
+        text-align: center;
+        font-size: 20px;
+        
+        
+    }
+
+
+    /*----*/
+
+     /*fourth-block*/
+     .fourth-block{
+        padding-top: 680px;
+     }
+    
+     
+     .work-exp h1{
+        font-size: 30px;
+        margin-left: 35%;
+        color: aliceblue;
+        font-weight: bold;
+    }
+
+   
+
+    .work-exp .roles{
+        
+        width: 100%;
+        height: 300px;
+        background-color: rgba(255, 255, 255,0.3);
+       padding: 10px;
+        border-radius: 10px;
+        border: 2px solid aliceblue;
+        color: aliceblue;
+       /* filter: blur(25px);*/
+    }
+    .jobs p{
+        padding-bottom: 25px;
+        font-size: 12px;
+        display: block;
+    }
+    
+    .jobs .circle{
+        width: 70px;
+        height: 70px;
+        position: relative;
+        /*background-color: rgb(201, 232, 153);*/
+    
+    }
+
+    .circle img{
+    width: 70px;
+    margin-top: 130px; 
+
+}
+    .jobs h4{
+        margin-bottom: 0px;
+        font-size: 10px;
+    }
+  
+
+
+    /*----*/
+
+     /*fifth-block*/
+     .fifth-block{
+        padding-top: 180px;
+        height: 100vh;
+     }
+     
+.fifth-block .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    /*border: 2px solid blue;*/
+    color: aliceblue;
+}
+  .hire .why{
+    font-size: 20px;
+    font-weight: bold;
+}
+.hire .para{
+    display: block;
+    width: auto;
+    font-size: 12px;
+}
+.hire .jobing{
+    font-size: 12px;
+}
+
+
+.hire .para-font{
+    font-size: 12px;
+}
+.hire button{
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+}
+    
+     /*-------*/
+
+
+    /*fnth-block*/
+
+    
+     .container .screens{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 165px;
+
+
+     }
+     .show1{
+        flex-direction: column;
+
+     }
+.container .porty{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+   padding-bottom: 20px;
+   
+   /* background-color: aliceblue;*/
+}
+.porty .minus{
+   font-size: 20px;
+   color: aliceblue;
+   font-weight: bolder;
+}
+.porty button{
+    height: 30px;
+    width: 70px;
+    font-size: 12px;
+}
+
+
+    /*----*/
+    /*nth-block*/
+    .nth-block{
+        background: rgba(8, 8, 8, 0.8);
+       height: 100vh;
+       padding-top: 30px;
+       /*border: 2px solid lime ;*/
+       margin-top: 318px;
+    }
+     .container .bloggy{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+     }
+     
+.visitor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    gap: 40px;
+}
+.visitor h1{
+    font-weight: bolder;
+    font-size: 24px;
+}
+.visitor button{
+    width: 100px;
+    height:40px;
+    border-radius: 5px;
+    font-size: 18px;
+    
+}
+
+.bloged .new-btn{
+    width: 40px;
+    height: 40px;
+   /* background-color: blue;*/
+    position: absolute;
+    margin-top: 470px;
+    margin-left: 330px;
+    border-radius: 100%;
+}
+
+.container .bloggy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   /* background-color: brown;*/
+    gap: 40px;
+    padding: 10px;
+}
+
+
+    /*---------*/
+
+    /*Feet*/
+    .footer{
+        background: rgba(8, 8, 8, 0.8);
+       height: 200vh;
+      
+       
+       /*border: 2px solid lime ;*/
+    }
+    .footer .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 880px;
+        
+
+     }
+     .feet1 h1{
+        font-size: 24px;
+     }
+
+     .feet1 .butty{
+        font-size: 12px;
+        width: 100px;
+        height: 40px;
+     }
+     .funny-texts .p1{
+        font-size: 14px;
+        display: flexbox;
+        width: 200px;
+        height: 180px;
+     }
+     .funx, .funx1{
+        font-size: 12px;
+     }
+    
+     .container .feet{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: aliceblue;
+        gap: 40px;
+       
+        /*background-color: aliceblue;*/
+        margin-bottom: 10px;
+    }
+
+
+
+    /*-----*/
+}
 
     
 
