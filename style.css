@@ -2,12 +2,19 @@
     margin: 0;
     box-sizing: border-box;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
    
     
 }
+.all-content{
+    background: rgba(8, 8, 8, 0.8);
+    background-image: url(./imgs/ghols.jpg);
+   
+}
+
 
 .main-block{
-   background: rgba(8, 8, 8, 0.8);
+   /* background: rgba(8, 8, 8, 0.8);*/
     height: 100vh;
     
 }
@@ -20,7 +27,7 @@
 }
 .first-block .container{
    
-  /*  border: 2px solid blue;*/
+    /*border: 2px solid blue;*/
 }
 .text2 img{
     width: 600px;
@@ -34,7 +41,7 @@
 }
 
 .container .text{
- 
+   
     color: aliceblue;
     text-align: center;
     
@@ -53,16 +60,38 @@
     
    
 }*/
-.container .buttn, .fd{
+.container .buttn{
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     z-index: 2;
-  border-radius: 30px;
+ 
       left: 40%;
-      width: 300px;
+      width: 350px;
       height: 60px;
+}
+.buttn{
+    padding: 20px;
+    
+}
+.insidebtn{
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px solid orange;
+    background-color: brown;
+    position:absolute;
+
+}
+.insidebtn .btn{
+    text-align: center;
+}
+.buttn{
+    top: 655px;
+    left: 40%;
+    position:fixed;
 }
 
 
@@ -89,10 +118,10 @@
 
 
 .second-block{
-    background: rgba(8, 8, 8, 0.8);
+    /*background: rgba(8, 8, 8, 0.8);*/
     height: 100vh;
     padding-top: 80px;
-   /* border: 2px solid lime ;*/
+    /*border: 2px solid lime ;*/
     color: aliceblue;
 
 }
@@ -118,7 +147,7 @@
    justify-content: space-between;
    align-items: center;
    gap: 20px;
-   /* border: 2px solid blue;*/
+    /*border: 2px solid blue;*/
 }
 .container .blok{
     width: 450px;
@@ -156,13 +185,13 @@
 }
 
 .third-block{
-     background: rgba(78, 65, 65, 0.8);
+     /*background: rgba(78, 65, 65, 0.8);*/
     height: 100vh;
 
 }
 
 .fourth-block{
-    background: rgba(8, 8, 8, 0.8);
+    /*background: rgba(8, 8, 8, 0.8);*/
     height: 100vh;
     padding-top: 80px;
     /*border: 2px solid lime ;*/
@@ -171,7 +200,7 @@
 
 .fourth-block .container{
    
-   /* border: 2px solid blue;*/
+   /*border: 2px solid blue;*/
     
 }
  .work-exp h1{
@@ -225,12 +254,13 @@
     font-size: 30px;
 }
 
+/*---------*/
 
 .fifth-block{
-   background: rgba(8, 8, 8, 0.8);
+   /*background: rgba(8, 8, 8, 0.8);*/
     height: 100vh;
     padding-top: 80px;
-    /*border: 2px solid lime ;*/
+   /* border: 2px solid lime ;*/
 
 }
 
@@ -278,8 +308,10 @@ h4 .para-font{
 }
 
 
+/*------------------------*/
+
 .fnth-block{
-    background: rgba(8, 8, 8, 0.8);
+    /*background: rgba(8, 8, 8, 0.8);*/
    height: 110vh;
  
   /* border: 2px solid lime ;*/
@@ -292,11 +324,15 @@ h4 .para-font{
 }
 
 
-
+/*-------*/
+.fnth-block{
+    padding-top: 150px;
+}
 .fnth-block .container{
  padding-bottom: 20px;
  margin-top: 0px;
-   /* border: 2px solid blue;*/
+
+   /*border: 2px solid blue;*/
 }
 .porty button{
     height: 50px;
@@ -370,16 +406,17 @@ h4 .para-font{
 
 
 
-.nth-block{
-    background: rgba(8, 8, 8, 0.8);
+.nth-blocks{
+    /*background: rgba(8, 8, 8, 0.8);*/
    height: 100vh;
    padding-top: 30px;
    /*border: 2px solid lime ;*/
-   margin-top: 313px;
+   margin-top: 0px;
 }
-.nth-block .container{
+.nth-blocks .container{
    
     /*border: 2px solid blue;*/
+    padding-top: 50px;
    
 }
 .container .bloggy{
@@ -440,18 +477,31 @@ h4 .para-font{
     
 }
 
+/*----------------*/
+.process{
+     /*background: rgba(8, 8, 8, 0.8);*/
+     height: 100vh;
+ 
+      border: 2px solid lime ;
+}
+.process .container{
+  border: 2px solid blue;
+ color: aliceblue;
+}
+
+
 
 
 /*-----------------*/
 .footer{
-    background: rgba(8, 8, 8, 0.8);
+    /*background: rgba(8, 8, 8, 0.8);*/
    height: 100vh;
    padding-top: 30px;
    /*border: 2px solid lime ;*/
 }
 .footer .container{
    
-   /* border: 2px solid blue;*/
+   /*border: 2px solid blue;*/
 }
 .container .feet{
     display: flex;
@@ -528,7 +578,7 @@ h4 .para-font{
 
 .nav{
     display: flex;
-    gap: 30px;
+    gap: 10px;
     justify-content: center;
     margin-left: auto;
    padding-top:20px ;
@@ -589,27 +639,34 @@ h4 .para-font{
 
 /*responsive*/
 
-@media only screen and (max-width: 1920px) {
-  body {
-    background-color: lightblue;
-  }
   /*nth-block*/
 
 
 /*-----------------*/
-}
+
 @media only screen and (max-width: 720px) {
+    body{
+        background: rgba(116, 113, 113, 0.5);
+    }
+
+.main{
+ margin-top: 0;
+ padding-top: 0;
+}
+.main-block .nav{
+        display: none;
+    }
 
 
     /*first-block*/
-    .fifth-block{
-      
-    }
+   
     .first-block .container{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: -60px;
+      
        
        
     }
@@ -620,9 +677,19 @@ h4 .para-font{
         align-items: center;
        
     }
-  
+ 
+     .more-text .text1{
+        padding-bottom: 50px;
+    }
+    .text h4{
+        font-weight: bolder;
+    }
+    .text h4,h5{
+        margin: 0;
+    }
+    
     .text h1{
-        font-size: 30px;
+        font-size: 40px;
         font-weight: bold;
     }
     .text h2{
@@ -632,11 +699,14 @@ h4 .para-font{
     .more-text .text1{
         text-align: center;
     }
+    .text2{
+        margin: -100px 0 -40px 0;
+    }
 
     .text2 img{
         
+       width: 250px;
         
-        padding-bottom: 0px;
     }
 
     .container .buttn, .fd{
@@ -644,26 +714,47 @@ h4 .para-font{
         z-index: 2;
       border-radius: 30px;
         left: auto;
-          width: 150px;
-          height: 30px;
+          width: 180px;
+          height: 60px;
+          margin-top: 40px;
     }
 
     /*-----*/
 
      /*second-block*/
     .second-block{
-        padding-top: 680px;
+        padding-top: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+       
+        
     }
-     .second-block, .myserve, .container{
+     .second-block, .container{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+      
+       
+    }
+    .second-block .container{
+        padding: 20px;
+    }
+    .myserve .serve1,.p-serve{
+        margin-left: 0px;
+        margin-bottom: 10px;
+        text-align: left;
+        
+    }
+    .p-serve{
+        font-size: 12px;
+        padding-left: 40px;
     }
 
     .myserve h1{
-        font-size: 20px;
+        font-size: 34px;
         font-weight: bolder;
+        
     }
 
     .container .blok{
@@ -704,13 +795,15 @@ h4 .para-font{
 
      /*fourth-block*/
      .fourth-block{
-        padding-top: 680px;
+        padding-top: 50px;
+
      }
     
      
      .work-exp h1{
         font-size: 30px;
-        margin-left: 35%;
+        margin-left: 0;
+        padding: 20px;
         color: aliceblue;
         font-weight: bold;
     }
@@ -720,7 +813,7 @@ h4 .para-font{
     .work-exp .roles{
         
         width: 100%;
-        height: 300px;
+        height: 100%;
         background-color: rgba(255, 255, 255,0.3);
        padding: 10px;
         border-radius: 10px;
@@ -728,13 +821,24 @@ h4 .para-font{
         color: aliceblue;
        /* filter: blur(25px);*/
     }
-    .jobs p{
-        padding-bottom: 25px;
-        font-size: 12px;
+    .jobs p, .jobs2 p{
+        
+        font-size: 14px;
         display: block;
     }
+    .jobs p{
+        padding-bottom: 0;
+    }
+    .roles{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+        
+    }
     
-    .jobs .circle{
+    
+    .jobs1 .circle{
         width: 70px;
         height: 70px;
         position: relative;
@@ -744,12 +848,19 @@ h4 .para-font{
 
     .circle img{
     width: 70px;
-    margin-top: 130px; 
+    margin-top: 0px; 
 
 }
-    .jobs h4{
+    .jobs h4, .jobs2{
         margin-bottom: 0px;
-        font-size: 10px;
+        font-size: 18px;
+    }
+    .jobs2{
+        text-align: left;
+
+    }
+    .jobs2 h4{
+        font-weight: bold;
     }
   
 
@@ -758,7 +869,7 @@ h4 .para-font{
 
      /*fifth-block*/
      .fifth-block{
-        padding-top: 180px;
+        padding-top: 130px;
         height: 100vh;
      }
      
@@ -771,14 +882,20 @@ h4 .para-font{
     /*border: 2px solid blue;*/
     color: aliceblue;
 }
+
+.container .hires{
+    width: 60%;
+    height: 100px;
+    /*background-color: azure;*/
+}
   .hire .why{
-    font-size: 20px;
+    font-size: 34px;
     font-weight: bold;
 }
 .hire .para{
     display: block;
     width: auto;
-    font-size: 12px;
+    font-size: 14px;
 }
 .hire .jobing{
     font-size: 12px;
@@ -786,26 +903,37 @@ h4 .para-font{
 
 
 .hire .para-font{
-    font-size: 12px;
+    font-size: 14px;
 }
 .hire button{
-    width: 100px;
-    height: 30px;
-    font-size: 12px;
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
 }
     
      /*-------*/
 
 
     /*fnth-block*/
-
+    .fnth-block{
+        background: rgba(8, 8, 8, 0.8);
+       height: 110vh;
+     
+       
+    }
+    .fnth-block .container{
+        padding-bottom: 200px;
+        margin-top: 0px;
+          
+       }
     
      .container .screens{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 165px;
+        margin-top: 200px;
+       
 
 
      }
@@ -819,36 +947,76 @@ h4 .para-font{
     align-items: center;
     width: 100%;
     height: 80px;
-   padding-bottom: 20px;
+   padding-bottom: 30px;
    
    /* background-color: aliceblue;*/
 }
 .porty .minus{
-   font-size: 20px;
+   font-size: 34px;
    color: aliceblue;
    font-weight: bolder;
 }
 .porty button{
+    height: 40px;
+    width: 90px;
+    font-size: 16px;
+}
+
+.proj-description{
+    display: block;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    color: aliceblue;
+ 
+}
+
+.landings{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+.screens .blocks{
+    width: 80px;
     height: 30px;
-    width: 70px;
-    font-size: 12px;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+.blocks{
+    font-size: 9px;
+    padding: 5px;
+    color: aliceblue;
+   
 }
 
 
     /*----*/
     /*nth-block*/
-    .nth-block{
+    .nth-blocks{
         background: rgba(8, 8, 8, 0.8);
-       height: 100vh;
-       padding-top: 30px;
+       height: 165vh;
+       
        /*border: 2px solid lime ;*/
-       margin-top: 318px;
+       margin-top: 0px;
+      
+       
+    }
+    .nth-blocks .container{
+       
+        /*border: 2px solid blue;*/
+        
+       
     }
      .container .bloggy{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 40px;
+      
+       
+       
 
 
      }
@@ -859,10 +1027,11 @@ h4 .para-font{
     align-items: center;
     color: aliceblue;
     gap: 40px;
+    padding-bottom: 10px;
 }
 .visitor h1{
     font-weight: bolder;
-    font-size: 24px;
+    font-size: 34px;
 }
 .visitor button{
     width: 100px;
@@ -877,20 +1046,33 @@ h4 .para-font{
     height: 40px;
    /* background-color: blue;*/
     position: absolute;
-    margin-top: 470px;
-    margin-left: 330px;
+    margin-top: 350px;
+    margin-left: 300px;
     border-radius: 100%;
 }
-
-.container .bloggy{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-   /* background-color: brown;*/
-    gap: 40px;
-    padding: 10px;
+.bloged{
+    width: 300px;
+    height: 390px;
+    /*background-color: aquamarine;*/
+    border-radius: 20px;
+    color: aliceblue;
+   
+   
 }
+.bloged img{
+    width: 100%;
+    height: 200px;
+    background-color: aliceblue;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.text-blog h4{
+    font-weight: bold;
+    
+
+}
+
+
 
 
     /*---------*/
@@ -898,34 +1080,53 @@ h4 .para-font{
     /*Feet*/
     .footer{
         background: rgba(8, 8, 8, 0.8);
-       height: 200vh;
+       height: 100vh;
+       margin-top: 0px;
+       padding-top: 100px;
       
        
        /*border: 2px solid lime ;*/
     }
     .footer .container{
         display: flex;
+        
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 880px;
+        margin-top: 0px;
+       
+       
         
 
      }
+     .funny-texts .p1{
+        font-size: 22px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        width: 60%;
+    
+    }
+     .container .feet2{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        margin-top: 110px;
+     }
+    
      .feet1 h1{
-        font-size: 24px;
+        font-size: 34px;
      }
 
      .feet1 .butty{
-        font-size: 12px;
+        font-size: 16px;
         width: 100px;
         height: 40px;
      }
      .funny-texts .p1{
         font-size: 14px;
-        display: flexbox;
+       
         width: 200px;
-        height: 180px;
+      
      }
      .funx, .funx1{
         font-size: 12px;
@@ -941,7 +1142,13 @@ h4 .para-font{
         /*background-color: aliceblue;*/
         margin-bottom: 10px;
     }
-
+   
+    .favs{
+        display: flex;
+        
+        align-items: center;
+        gap: 10px;
+    }
 
 
     /*-----*/
